@@ -58,7 +58,6 @@ video {
 }
 
 .col3 {
-  border:2px solid blue;
   height:350px;
   min-width:100%;
   margin:0;
@@ -97,4 +96,20 @@ video {
 
 .card {
   background-color: #b92727;
+}
+
+.skills {
+  height:100px;
+  max-height:100px;
+  max-width: 100px;
+  margin: 10px;
+  margin-left:18px;
+  border-radius: 3px;
+  padding:5px;
+}
+
+.skillwrap {
+
+  padding-top:50px;
+  padding-left:15px;
 }
