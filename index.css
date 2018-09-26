@@ -44,19 +44,17 @@ video {
 
 
 }
+#bgvid {
+  z-index: -100;
+  position: absolute;
+}
 
 .col2 {
   border:1px solid blue;
   height:300px;
   width:100%;
-  overflow:hidden;
   margin:0;
   padding:0;
   background-color: #131313;
 
-}
-
-#bgvid {
-  z-index: -100;
-  position: absolute;
 }
