@@ -1,25 +1,58 @@
 body{
   margin:0 auto;
 }
+
 .col1 {
-  /* border:2px solid blue; */
   height:500px;
   width:100%;
   overflow:hidden;
   margin:0;
   padding:0;
+  display: table;
+}
+
+.titlewrap {
+  height:500px;
+  width:100%;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  display: table-cell;
+  vertical-align:middle;
 }
 
 h2  {
+  text-transform: uppercase;
   font-family:Montserrat;
   color:white;
   text-align:center;
+  vertical-align: middle;
+}
+
+h5{
+  font-family:Montserrat;
+  color:white;
+  text-align:center;
+  vertical-align: middle;
 }
 
 video {
   height:auto;
-  width:1136px;
+  width:1253px;
   margin:0;
+  opacity: .98;
+
+
+}
+
+.col2 {
+  border:1px solid blue;
+  height:300px;
+  width:100%;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  background-color: #131313;
 
 }
 
