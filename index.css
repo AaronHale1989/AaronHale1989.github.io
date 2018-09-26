@@ -38,7 +38,7 @@ h5{
 
 video {
   height:auto;
-  width:1253px;
+  width:1290px;
   margin:0;
   opacity: .98;
 
@@ -50,11 +50,51 @@ video {
 }
 
 .col2 {
-  border:1px solid blue;
-  height:300px;
+  height:350px;
   width:100%;
   margin:0;
   padding:0;
   background-color: #131313;
+}
 
+.col3 {
+  border:2px solid blue;
+  height:350px;
+  min-width:100%;
+  margin:0;
+  padding:0;
+  background-color: #131313;
+}
+
+.card-body {
+  padding: 0.6rem;
+}
+.card-title {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color:white;
+}
+
+.description {
+  font-family: 'Work Sans', sans-serif;
+  font-size :12px;
+  text-align: center;
+  color:white;
+}
+
+#soupimg {
+  align-self:center;
+  height:100px;
+  width:100px;
+}
+
+#wavimg {
+  margin-top: 10px;
+  align-self:center;
+  width:100px;
+  height:100px;
+}
+
+.card {
+  background-color: #b92727;
 }
