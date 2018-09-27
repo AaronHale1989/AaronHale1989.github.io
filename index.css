@@ -49,10 +49,6 @@ video {
   position: absolute;
 }
 
-.row {
-  border:2px solid purple;
-}
-
 .col2 {
   height:370px;
   width:100%;
