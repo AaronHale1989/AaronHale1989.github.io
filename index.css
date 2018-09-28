@@ -6,7 +6,7 @@ body{
 }
 
 .col1 {
-  height:500px;
+  height:100%;
   width:100%;
   overflow:hidden;
   margin:0;
@@ -32,6 +32,7 @@ h2  {
   vertical-align: middle;
 }
 
+
 h5{
   font-family:Montserrat;
   color:white;
@@ -39,21 +40,20 @@ h5{
   vertical-align: middle;
 }
 
-video {
-  height:auto;
-  width:1290px;
+
+#bgvid {
+
+  width:100%;
   margin:0;
   opacity: .98;
-
-
-}
-#bgvid {
   z-index: -100;
   position: absolute;
+  top:0;
+  left:0;
 }
 
 .col2 {
-  height:370px;
+  height:100%;
   width:100%;
   margin:0;
   padding:0;
@@ -125,6 +125,11 @@ video {
 
 
 @media only screen and (max-width: 768px) {
+
+    .titlewrap {
+      height:220px;
+    }
+
     .skills {
       height: 50px;
       max-height:50px;
@@ -175,4 +180,18 @@ video {
       top:10px;
     }
 
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+  .skills {
+    height: 75px;
+    max-height:75px;
+    max-width: 75px;
+    margin: 5px;
+    margin-left:18px;
+    border-radius: 3px;
+    padding:2px;
+  }
 }
