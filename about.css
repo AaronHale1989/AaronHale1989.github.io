@@ -1,6 +1,9 @@
 body{
   margin:0 auto;
-  background-color: #131313;
+  background-color: #202020;
+}
+.navbar {
+  background-color: #131313 !important;
 }
 
 .col1 {
