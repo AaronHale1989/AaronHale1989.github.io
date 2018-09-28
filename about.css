@@ -1,0 +1,49 @@
+body{
+  margin:0 auto;
+  background-color: #131313;
+}
+
+.col1 {
+  height: 100px;
+  width:100%;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  display: table;
+}
+
+
+.titlewrap  {
+  font-family: 'Work Sans', sans-serif;
+  color:white;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+}
+
+.card-body {
+  padding: 0.6rem;
+}
+.card-title {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  color:white;
+}
+
+.description {
+  font-family: 'Work Sans', sans-serif;
+  font-size :12px;
+  text-align: center;
+  color:white;
+}
+
+.container {
+  display:table;
+  width:500px;
+}
+
+.card {
+  background-color: #b92727;
+  display:table-cell;
+
+}
