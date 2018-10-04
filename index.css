@@ -119,7 +119,8 @@ h5{
 }
 
 .skillwrap {
-
+  height:100%;
+  width:100%;
   padding-top:50px;
   padding-left:15px;
   margin-right:20px;
@@ -204,6 +205,36 @@ h5{
    }
 
 }
+
+@media only screen and (min-width: 769px) {
+
+  .skills{
+    height: 90px;
+    max-height:90px;
+    max-width: 90px;
+    margin: 5px;
+    margin-left:18px;
+    border-radius: 3px;
+    padding:2px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .skills{
+    height: 110px;
+    max-height:110px;
+    max-width: 110px;
+    margin: 5px;
+    margin-left:18px;
+    border-radius: 3px;
+    padding:2px;
+  }
+
+}
+
+
 
 
 
