@@ -5,6 +5,11 @@ body{
   background-color: #131313 !important;
 }
 
+.row-fluid {
+  width:100%;
+
+}
+
 .col1 {
   height:100%;
   width:100%;
@@ -53,6 +58,7 @@ h5{
 }
 
 .col2 {
+  border:1px solid #131313;
   height:100%;
   width:100%;
   margin:0;
@@ -102,19 +108,21 @@ h5{
 }
 
 .skills {
-  height:100px;
-  max-height:100px;
-  max-width: 100px;
+  height:110px;
+  max-height:110px;
+  max-width: 110px;
   margin: 10px;
   margin-left:18px;
   border-radius: 3px;
   padding:5px;
+
 }
 
 .skillwrap {
 
   padding-top:50px;
   padding-left:15px;
+  margin-right:20px;
 }
 
 #btn1 {
@@ -180,18 +188,22 @@ h5{
       top:10px;
     }
 
+    .col2 {
+      border:2px solid blue;
+      width:auto;
+    }
+
+    .row-fluid {
+      border: 2px solid red;
+      width:auto;
+
+    }
+   .card-cont {
+    border:2px solid purple;
+    width:100%;
+   }
+
 }
 
-@media only screen and (max-width: 1024px) {
 
 
-  .skills {
-    height: 75px;
-    max-height:75px;
-    max-width: 75px;
-    margin: 5px;
-    margin-left:18px;
-    border-radius: 3px;
-    padding:2px;
-  }
-}
