@@ -190,17 +190,14 @@ h5{
     }
 
     .col2 {
-      border:2px solid blue;
       width:auto;
     }
 
     .row-fluid {
-      border: 2px solid red;
       width:auto;
 
     }
    .card-cont {
-    border:2px solid purple;
     width:100%;
    }
 
