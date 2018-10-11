@@ -103,6 +103,13 @@ h5{
   height:100px;
 }
 
+#robotimg {
+   align-self:center;
+  height:100px;
+  width:100px;
+
+}
+
 .card {
   background-color: #b92727;
 }
@@ -129,6 +136,11 @@ h5{
 #btn1 {
   position:relative;
   top:36px;
+}
+
+#btn3 {
+  position:relative;
+  top:75px;
 }
 
 
